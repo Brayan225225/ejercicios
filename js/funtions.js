@@ -146,11 +146,11 @@ function Promedio()
     Nota4 = parseFloat (prompt ("Ingrese la cuarta clificacion"));
     Nota5 = parseFloat (prompt ("Ingrese la quinta clificacion"));
     promedio = (Nota1 + Nota2 + Nota3 + Nota4 + Nota5)/ 5;
-   if(promedio <=2.9)
+   if(promedio <=29)
     {
         alert ("El promedio del estudiante es " + promedio + " Por lo tanto el estudiante perdio");
     }
-    else if (promedio =>3.0)
+    else if (promedio =>30)
     {
         alert ("El promedio del estudiante es " + promedio + " Por lo tanto el estudiante paso");
     }
